@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ArthurCisotto.github.io/static/css/main.9ca86528.css",
+    "main.js": "/ArthurCisotto.github.io/static/js/main.006c04ad.js",
+    "static/js/787.95a9c6bb.chunk.js": "/ArthurCisotto.github.io/static/js/787.95a9c6bb.chunk.js",
+    "static/media/myImage.jpg": "/ArthurCisotto.github.io/static/media/myImage.bf1ce13dc781930ddd80.jpg",
+    "index.html": "/ArthurCisotto.github.io/index.html",
+    "main.9ca86528.css.map": "/ArthurCisotto.github.io/static/css/main.9ca86528.css.map",
+    "main.006c04ad.js.map": "/ArthurCisotto.github.io/static/js/main.006c04ad.js.map",
+    "787.95a9c6bb.chunk.js.map": "/ArthurCisotto.github.io/static/js/787.95a9c6bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca86528.css",
+    "static/js/main.006c04ad.js"
+  ]
+}
