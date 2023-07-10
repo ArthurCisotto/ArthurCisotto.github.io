@@ -17,11 +17,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+  ,
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -42,7 +43,7 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "homepage": "http://ArthurCisotto.github.io/ArthurCisotto.github.io",
+  "homepage": "http://ArthurCisotto.github.io/site-pessoal",
   "author": "",
   "license": "ISC",
   "devDependencies": {
