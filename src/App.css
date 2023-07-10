@@ -1,38 +1,104 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  max-width: 1000%;
+  margin: auto;
+  padding: 2em;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  padding: 1em;
+  color: white;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  width: 60%;
+}
+.Profile-pic-container {
+  width: 30%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile-pic {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Social-links {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;  /* Make the buttons stack vertically */
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   color: white;
+  width: 30%;
+  height: 50px;
+  border-radius: 20px;
+  margin: 0.5em 0;
+  font-size: 0.8em;
+  transition: opacity 0.6s ease;
 }
 
-.App-link {
-  color: #61dafb;
+
+.social-button:hover {
+  opacity: 0.7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instagram {
+  background: #E1306C;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+
+.youtube {
+  background: #FF0000;
+}
+
+.socialPlatformName {
+  margin-left: 0.5em;
+}
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 1.2em;
 }
