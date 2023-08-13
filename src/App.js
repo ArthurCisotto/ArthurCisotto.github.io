@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import myImage from './myImage.jpg';  // Make sure to replace this with your own image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin, faYoutube, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const App = () => {
   return (
@@ -23,9 +23,9 @@ const App = () => {
 
       <div className="Social-links">
         <h2>Connect with me:</h2>
-        <a href="https://instagram.com/arthurcisotto" target="_blank" rel="noopener noreferrer" className="social-button instagram">
-          <FontAwesomeIcon icon={faInstagram} size="2x" />
-          <p className="socialPlatformName">Instagram</p>
+        <a href="https://github.com/arthurcisotto" target="_blank" rel="noopener noreferrer" className="social-button github">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+          <p className="socialPlatformName">GitHub</p>
         </a>
         <a href="https://linkedin.com/in/arthurcisottom" target="_blank" rel="noopener noreferrer" className="social-button linkedin">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -34,6 +34,10 @@ const App = () => {
         <a href="https://youtube.com/@arthurcisottomachado97" target="_blank" rel="noopener noreferrer" className="social-button youtube">
           <FontAwesomeIcon icon={faYoutube} size="2x" />
           <p className="socialPlatformName">Youtube</p>
+        </a>
+        <a href="https://instagram.com/arthurcisotto" target="_blank" rel="noopener noreferrer" className="social-button instagram">
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
+          <p className="socialPlatformName">Instagram</p>
         </a>
       </div>
 
