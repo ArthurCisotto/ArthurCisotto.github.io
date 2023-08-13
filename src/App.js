@@ -15,7 +15,7 @@ const App = () => {
         <p>Software Engineer | Designer | Work in Progress</p>
         <p className="About-me">
           I'm a 20 year old from Brazil.
-          Currently an second year undergraduate Computer Engineering student @Insper.
+          Currently an third year undergraduate Computer Engineering student @Insper.
           Developer in progress. Also really interested in graphic design.
           I love language learning, and that translates really well into programming languages!
         </p>
