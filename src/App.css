@@ -59,12 +59,23 @@
   justify-content: center;
   text-decoration: none;
   color: white;
-  width:30em;
-  height: 6em;
+  width: 80%;  /* Tamanho relativo em vez de absoluto */
+  max-width: 30em; /* Limite máximo de largura */
+  height: 50px; /* Altura fixa */
   border-radius: 20px;
-  margin: 0.5em 0;
+  margin: 0.5em auto; /* Centraliza o botão */
   font-size: 1.2em;
   transition: opacity 0.6s ease;
+  box-sizing: border-box; /* Inclui padding e border no width/height */
+}
+
+/* Media Query para telas menores (ex: celulares) */
+@media (max-width: 600px) {
+  .social-button {
+    width: 95%; /* Mais largura em telas menores */
+    font-size: 1em; /* Tamanho de fonte menor para telas pequenas */
+    height: 40px; /* Altura um pouco menor para se adequar melhor */
+  }
 }
 
 
