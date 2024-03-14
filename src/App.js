@@ -3,6 +3,7 @@ import './App.css';
 import myImage from './myImage.jpg';  // Make sure to replace this with your own image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedin, faYoutube, faGithub } from "@fortawesome/free-brands-svg-icons";
+import Resume from './Resume';
 
 const App = () => {
   return (
@@ -14,10 +15,10 @@ const App = () => {
         <h1>Hello, I'm Arthur Cisotto</h1>
         <p>Software Engineer | Designer | Work in Progress</p>
         <p className="About-me">
-          I'm a 20 year old from Brazil.
-          Currently an third year undergraduate Computer Engineering student @Insper.
+          I'm a 21 year old from Brazil.
+          Currently an fourth year undergraduate Computer Engineering student @Insper.
           Developer in progress. Also really interested in graphic design.
-          I love language learning, and that translates really well into programming languages!
+          I love language learning, and I think that translates really well into programming languages!
         </p>
       </header>
 
@@ -41,8 +42,10 @@ const App = () => {
         </a>
       </div>
 
+      <Resume />
+
       <footer>
-        <p>© 2023 Arthur Cisotto</p>
+        <p>© 2024 Arthur Cisotto</p>
       </footer>
     </div>
   );
